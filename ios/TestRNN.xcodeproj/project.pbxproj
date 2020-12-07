@@ -55,6 +55,7 @@
 		2D02E47B1E0B4A5D006451C7 /* TestRNN-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRNN-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TestRNN-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestRNN-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F641D1FB46D9ECB73FEA1A4 /* Pods-TestRNN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRNN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TestRNN-tvOS/Pods-TestRNN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		40BA9FC6257C7A8400C613CE /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		6B367D15C5530A4A5EEDEB15 /* libPods-TestRNN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRNN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2F71CBA637E219AEF2F067 /* Pods-TestRNN-TestRNNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRNN-TestRNNTests.debug.xcconfig"; path = "Target Support Files/Pods-TestRNN-TestRNNTests/Pods-TestRNN-TestRNNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TestRNN/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		13B07FAE1A68108700A75B9A /* TestRNN */ = {
 			isa = PBXGroup;
 			children = (
+				40BA9FC5257C7A3400C613CE /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -161,8 +163,15 @@
 				ACC0BC7B094B8227456862D0 /* Pods-TestRNN-tvOSTests.debug.xcconfig */,
 				FCB87F04A015516C77191BB6 /* Pods-TestRNN-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		40BA9FC5257C7A3400C613CE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				40BA9FC6257C7A8400C613CE /* Ionicons.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {

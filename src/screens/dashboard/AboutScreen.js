@@ -14,6 +14,7 @@ export default class AboutScreen extends Component {
   render() {
     return (
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <Text>React Native Navigation Boilerplate</Text>
         <Button title='Logout Test' color='red' onPress={() => this.onLogout()} />
       </View>
     )
