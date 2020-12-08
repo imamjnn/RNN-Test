@@ -87,8 +87,14 @@ Navigation.setDefaultOptions({
     }
   },
   bottomTab: {
-    fontSize: 14,
-    selectedFontSize: 14
+    fontSize: 12,
+    selectedFontSize: 12,
+    iconColor: 'grey',
+    textColor: 'grey',
+  },
+  bottomTabs: {
+    animate: false,
+    titleDisplayMode: 'alwaysShow',
   }
 });
 

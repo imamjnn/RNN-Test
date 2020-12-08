@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { Button, Text, View } from 'react-native'
 import { Navigation } from 'react-native-navigation'
-import { mainRoot } from '../../navigations/AppNavigation'
+import { layouts } from '../../navigations/AppNavigation'
 import { save } from '../../services/storage'
 
 export default class LoginScreen extends Component {
 
-  onLogin = () => {
+  onLogin = async () => {
     save('userInfo', 'Imam Jinani')
-    Navigation.setRoot(mainRoot)
+    const main = await layouts.then(({mainRoot}) => mainRoot)
+    Navigation.setRoot(main)
   }
 
   render() {

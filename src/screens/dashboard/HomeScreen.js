@@ -22,3 +22,11 @@ export default class HomeScreen extends Component {
     )
   }
 }
+
+HomeScreen.options = {
+  topBar: {
+    title: {
+      text: 'Home'
+    }
+  }
+}
